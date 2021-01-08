@@ -81,11 +81,8 @@
     animation-name: home-animation;
     animation-duration: 3s;
     top: 37rem;
+    left: 0rem;
     margin: 0 auto;
-}
-
-h1{
-color: white;
 }
 
 @keyframes home-animation{
@@ -274,9 +271,27 @@ footer{
 .btn2:hover{
     background-color: rgb(39, 170, 39);
 }
-
+h1{
+    color: white;
+}
 @media only screen and (min-width: 1440px) {
     [id*="home"] {
         min-height: 23vh;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    *{
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+    #services-container h1{
+        font-size: 2.3rem;
+    }
+    #client-section h1{
+        font-size: 2.3rem;
+    }
+    #contact h1{
+        font-size: 2.3rem;
     }
 }
