@@ -19,7 +19,7 @@
     position: sticky;
     top: 0%;
     z-index: 2;
-    color: black;
+    background-color: black;
 }
 
  /* Navigation bar: Logo and Image */
@@ -81,8 +81,11 @@
     animation-name: home-animation;
     animation-duration: 3s;
     top: 37rem;
-    left: 5rem;
-    margin: 0rem;
+    margin: 0 auto;
+}
+
+h1{
+color: white;
 }
 
 @keyframes home-animation{
